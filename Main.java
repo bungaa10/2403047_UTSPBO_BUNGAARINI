@@ -25,7 +25,7 @@ public class Main {
                 System.out.println(" Login berhasil! Selamat datang.");
             } else {
                 percobaan++;
-                System.out.println(" Username atau password salah (" + percobaan + "/3)");
+                System.out.println(" Username atau password salah. silakan coba lagi (kesempatan percobaan 3 kali). (" + percobaan + "/3)");
             }
         }
 
